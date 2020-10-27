@@ -1,0 +1,49 @@
+.ui {
+  &_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Comfortaa", cursive;
+  }
+
+  &_divided-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 80%;
+  }
+
+  &_embed {
+    display: flex;
+    padding-left: 70px;
+    height: 500px;
+  }
+
+  &_label-search {
+    margin-right: 20px;
+  }
+
+  &_image {
+    width: 100%;
+  }
+
+  &_video-description {
+    display: flex;
+    padding-left: 120px;
+  }
+
+  &_segment {
+    padding-left: 15px;
+  }
+}
+
+.video_item {
+  width: 240px;
+  cursor: pointer;
+}
+
+.iframe-video {
+  width: 700px;
+  height: 100%;
+}
